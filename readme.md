@@ -1,18 +1,9 @@
-a, Group Member: Tailin Lyu, Maojin Zhao, Heo Jay
-b, https://research-git.uiowa.edu/tailyu/object-oriented-project.git
-c, I don't use any dependencies other than the codes you uploaded to ICON, including ABC.java, Command line.java, Stax Parser.
-d, Our project has an init functionality like Git Init, before the initialization we can only keep "A.txt" in the repository. After the initialization, we will generate "store.xml" to store all info, ".A.txt"(depends on your file name) to store all patches, "A_old.txt" to make diff command. In the further use, we may generate "merge1.txt" and "merge2.txt" to achieve merge and "b.patch" to be used to reverse back through patch.
-e, Caution: all file name we use A.txt not "A.txt", we dont use the double quote mark. However, for comments, we use doubel quote mark.
-First, we have a HELP method to tell you how our desgin workds
-
 Help: java -jar sfrc.jar help
 Help commit: java -jar sfrc.jar help commit
 Help merge: java -jar sfrc.jar help merge
 Help init: java -jar sfrc.jar help init
 Help checkout: java -jar sfrc.jar help checkout
 Help branch: java -jar sfrc.jar help branch
-
-As what I said above, we need to firstly init the sfrc system.
 
 Init: java -jar sfrc.jar init -f A.txt
 
